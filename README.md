@@ -3,7 +3,8 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: Naked twins is a strategy to eliminate some of possible choices in some boxes. We can use nake twin elimination steps in reducing the problem.
+A: Constraint propagation is technique to repeatedly applying legal constraints and eliminating possible choices or path to searchi of final solution. More constraint we apply better are chances of reduction in search path.
+ Naked twins is a strategy to eliminate some of possible choices in some boxes. We can use nake twin elimination steps in reducing the problem.
    So our reduce puzzle step can be apply naked twin strategy.
 
 # Question 2 (Diagonal Sudoku)
